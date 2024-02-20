@@ -14,7 +14,9 @@ Um eine .py-Datei in Binder auszuführen, starten Sie ein neues Terminal innerha
 # Erwartete Ergebnis:
 1. Ergebnis nach der Ausführung der main.py Datei ist in der Datei ausgabe.txt zu finden.
    
-   [ausgabe.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14343872/ausgabe.txt)MNIST: (70000, 784) (70000,)
+[ausgabe.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14343872/ausgabe.txt)
+
+MNIST: (70000, 784) (70000,)
 __init__ ran in: 6.67572021484375e-06 sec
 fit ran in: 25.985992193222046 sec
 
@@ -70,7 +72,8 @@ Test confusion matrix:
 
 2. Ergebnis nach der Ausführung der test.py Datei ist in der Datei ausgabe2.txt zu finden.
    
-   [ausgabe2.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14343874/ausgabe2.txt)
+[ausgabe2.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14343874/ausgabe2.txt)
+
 setUp
 __init__ ran in: 2.765655517578125e-05 sec
 fit ran in: 26.321918725967407 sec
