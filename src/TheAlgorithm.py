@@ -1,3 +1,9 @@
+from decorators import my_logger, my_timer
+from Unit_download import Normalize, split
+import numpy as np
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix, classification_report
+
 class TheAlgorithm(object):
   
     @my_logger

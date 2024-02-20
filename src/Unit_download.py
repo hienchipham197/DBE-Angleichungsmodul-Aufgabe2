@@ -1,8 +1,11 @@
+from sklearn.datasets import fetch_openml
+from sklearn.preprocessing import MinMaxScaler
+
 def download():
-    mnist = fetch_mldata('MNIST original')
+    mnist = fetch_openml('mnist_784', version=1)
     X = mnist.data.astype('float64')
     y = mnist.target
-    return (X, y) 
+    return (X, y)
 
 class Normalize(object): 
     def normalize(self, X_train, X_test):
@@ -21,4 +24,4 @@ def split(X,y, splitRatio):
     y_train = y[:splitRatio]
     X_test = X[splitRatio:]
     y_test = y[splitRatio:]
-    return (X_train, y_train, X_test, y_test)     
+    return (X_train, y_train, X_test, y_test)      
