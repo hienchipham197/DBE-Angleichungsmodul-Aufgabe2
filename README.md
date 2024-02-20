@@ -13,6 +13,7 @@ Um eine .py-Datei in Binder auszuführen, starten Sie ein neues Terminal innerha
 
 # Erwartete Ergebnis:
 1. Ergebnis nach der Ausführung der main.py Datei:
+   
    MNIST: (70000, 784) (70000,)
 __init__ ran in: 6.67572021484375e-06 sec
 fit ran in: 25.985992193222046 sec
@@ -67,6 +68,7 @@ Test confusion matrix:
  [  21   29    9   33  129   43   28  108   38  571]]
 
 2. Ergebnis nach der Ausführung der test.py Datei:
+
    setUp
 __init__ ran in: 2.765655517578125e-05 sec
 fit ran in: 26.321918725967407 sec
