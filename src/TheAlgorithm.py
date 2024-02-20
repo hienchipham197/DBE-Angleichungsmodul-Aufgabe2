@@ -1,5 +1,5 @@
 from decorators import my_logger, my_timer
-from Unit_download import Normalize, split
+from main import Normalize, split
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, classification_report
