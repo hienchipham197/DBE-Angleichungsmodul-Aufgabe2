@@ -12,9 +12,9 @@ Um eine .py-Datei in Binder auszuführen, starten Sie ein neues Terminal innerha
 3. Führen Sie anschließend die test.py-Datei aus, indem Sie den Befehl python tests/test.py verwenden. Um die Ausgabe in eine .txt-Datei zu exportieren, nutzen Sie den Befehl python tests/test.py >> ausgabe2.txt. Die ausgabe2.txt-Datei befindet sich ebenfalls im Hauptverzeichnis.
 
 # Erwartete Ergebnis:
-1. Ergebnis nach der Ausführung der main.py Datei:
+1. Ergebnis nach der Ausführung der main.py Datei ist in der Datei ausgabe.txt zu finden.
    
-   MNIST: (70000, 784) (70000,)
+   [ausgabe.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14343872/ausgabe.txt)MNIST: (70000, 784) (70000,)
 __init__ ran in: 6.67572021484375e-06 sec
 fit ran in: 25.985992193222046 sec
 
@@ -67,9 +67,11 @@ Test confusion matrix:
  [  14   98   27  100   10   33   70    9  583   30]
  [  21   29    9   33  129   43   28  108   38  571]]
 
-2. Ergebnis nach der Ausführung der test.py Datei:
 
-   setUp
+2. Ergebnis nach der Ausführung der test.py Datei ist in der Datei ausgabe2.txt zu finden.
+   
+   [ausgabe2.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14343874/ausgabe2.txt)
+setUp
 __init__ ran in: 2.765655517578125e-05 sec
 fit ran in: 26.321918725967407 sec
 setUp
