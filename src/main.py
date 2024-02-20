@@ -14,7 +14,7 @@ import os
 
 # Funktion zum Herunterladen und Vorbereiten der MNIST-Daten
 def download_data():
-    mnist = fetch_openml('mnist_784', version=1)
+    mnist = fetch_openml('mnist_784', version=1, parser='auto')
     X = mnist.data.astype('float64')
     y = mnist.target
     return X, y
