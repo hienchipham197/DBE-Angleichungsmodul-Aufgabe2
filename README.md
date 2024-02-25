@@ -1,4 +1,4 @@
-[ausgabe3.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14398185/ausgabe3.txt)# DBE-Angleichungsmodul-Aufgabe2
+# DBE-Angleichungsmodul-Aufgabe2
 
 # Ziele der Aufgabe:
 - Implementierung von ML basierten SW Systemen
@@ -102,13 +102,18 @@ weighted avg       0.73      0.73      0.72     10000
 
 predict ran in: 2.099426746368408 sec
 
+
 3. Ergebnis nach der Ausführung der test_runtime.py Datei ist in der Datei ausgabe3.txt zu finden.
-[Uploading ausgabe3.txt…]()
+[ausgabe3.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14398185/ausgabe3.txt)
 
 Setting up class for runtime tests. 
+
 Setup for runtime test 
+
 __init__ ran in: 4.76837158203125e-06 sec 
+
 fit ran in: 18.95483684539795 sec 
+
 Actual runtime of fit() function: 18.954954147338867 seconds
 
 # Binder Badge
