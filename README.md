@@ -1,4 +1,4 @@
-[ausgabe3.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14398180/ausgabe3.txt)[ausgabe3.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14398177/ausgabe3.txt)# DBE-Angleichungsmodul-Aufgabe2
+[ausgabe3.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14398185/ausgabe3.txt)# DBE-Angleichungsmodul-Aufgabe2
 
 # Ziele der Aufgabe:
 - Implementierung von ML basierten SW Systemen
@@ -110,8 +110,6 @@ Setup for runtime test
 __init__ ran in: 4.76837158203125e-06 sec
 fit ran in: 18.95483684539795 sec
 Actual runtime of fit() function: 18.954954147338867 seconds
-
-
 
 # Binder Badge
 Das Prjekt kann in Binder ausgeführt werden: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/HEAD)
