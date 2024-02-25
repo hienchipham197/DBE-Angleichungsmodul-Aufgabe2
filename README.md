@@ -1,4 +1,4 @@
-# DBE-Angleichungsmodul-Aufgabe2
+[ausgabe3.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14398177/ausgabe3.txt)# DBE-Angleichungsmodul-Aufgabe2
 
 # Ziele der Aufgabe:
 - Implementierung von ML basierten SW Systemen
@@ -8,9 +8,9 @@
 # Ausführen
 1. Öffnen Sie den Link zu Binder, den Sie im Binder Badge finden.
 Um eine .py-Datei in Binder auszuführen, starten Sie ein neues Terminal innerhalb der Binder-Umgebung.
-2. Führen Sie zunächst die main.py-Datei aus, indem Sie den Befehl python src/main.py eingeben. Das Ergebnis wird in der Testdatendatei im Unterverzeichnis data gespeichert. Wenn Sie die Ausgabe in eine .txt-Datei exportieren möchten, verwenden Sie den Befehl python src/main.py >> ausgabe.txt. Sie finden die ausgabe.txt-Datei im Hauptverzeichnis.
-3. Führen Sie die test.py-Datei aus, indem Sie den Befehl python tests/test.py verwenden. Um die Ausgabe in eine .txt-Datei zu exportieren, nutzen Sie den Befehl python tests/test.py >> ausgabe2.txt. Die ausgabe2.txt-Datei befindet sich ebenfalls im Hauptverzeichnis.
-4. Führen Sie die test_runtime.py-Datei aus, indem Sie den Befehl python tests/test_runtime.py verwenden. Um die Ausgabe in eine .txt-Datei zu exportieren, nutzen Sie den Befehl python tests/test.py >> ausgabe3.txt. Die ausgabe3.txt-Datei befindet sich ebenfalls im Hauptverzeichnis.
+2. Führen Sie zunächst die main.py-Datei aus, indem Sie den Befehl "python src/main.py" eingeben. Das Ergebnis wird in der Testdatendatei im Unterverzeichnis data gespeichert. Wenn Sie die Ausgabe in eine .txt-Datei exportieren möchten, verwenden Sie den Befehl "python src/main.py >> ausgabe.txt". Sie finden die ausgabe.txt-Datei im Hauptverzeichnis.
+3. Führen Sie die test.py-Datei aus, indem Sie den Befehl python tests/test.py verwenden. Um die Ausgabe in eine .txt-Datei zu exportieren, nutzen Sie den Befehl "python tests/test.py >> ausgabe2.txt". Die ausgabe2.txt-Datei befindet sich ebenfalls im Hauptverzeichnis.
+4. Führen Sie die test_runtime.py-Datei aus, indem Sie den Befehl python tests/test_runtime.py verwenden. Um die Ausgabe in eine .txt-Datei zu exportieren, nutzen Sie den Befehl "python tests/test_runtime.py >> ausgabe3.txt". Die ausgabe3.txt-Datei befindet sich ebenfalls im Hauptverzeichnis.
 
 # Erwartete Ergebnis:
 1. Ergebnis nach der Ausführung der main.py Datei ist in der Datei ausgabe.txt zu finden.
@@ -103,6 +103,12 @@ weighted avg       0.73      0.73      0.72     10000
 predict ran in: 2.099426746368408 sec
 
 3. Ergebnis nach der Ausführung der test_runtime.py Datei ist in der Datei ausgabe3.txt zu finden.
+[UploadingSetting up class for runtime tests.
+Setup for runtime test
+__init__ ran in: 4.76837158203125e-06 sec
+fit ran in: 18.95483684539795 sec
+Actual runtime of fit() function: 18.954954147338867 seconds
+ ausgabe3.txt…]()
 
 # Binder Badge
 Das Prjekt kann in Binder ausgeführt werden: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/HEAD)
