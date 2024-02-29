@@ -17,8 +17,26 @@ class TestAlgorithmRuntime(unittest.TestCase):
         X, y = download_data()
         splitRatio = 60000
         self.X_train, self.y_train, self.X_test, self.y_test = split(X, y, splitRatio)
+        self.baseline_runtime = self.load_average_baseline_runtime()
+
+    def load_average_baseline_runtime(self):
+        data_dir = 'data'
+        baseline_file_path = os.path.join(data_dir, 'baseline_runtime.txt')
+        try:
+            with open(baseline_file_path, 'r') as file:
+                # Werte aus der Datei lesen, die durch ";" getrennt sind
+                runtimes = file.read().strip().split(';')
+                # Umwandeln der Werte in float und Berechnen des Durchschnitts
+                average_runtime = np.mean([float(runtime) for runtime in runtimes if runtime])
+                return average_runtime
+        except FileNotFoundError:
+            print(f"Datei {baseline_file_path} nicht gefunden.")
+            return None
 
     def test_fit_runtime(self):
+        if self.baseline_runtime is None:
+            self.skipTest("Baseline-Laufzeit konnte nicht geladen werden.")
+        
         np.random.seed(31337)
         ta = TheAlgorithm(self.X_train, self.y_train, self.X_test, self.y_test)
 
@@ -34,13 +52,8 @@ class TestAlgorithmRuntime(unittest.TestCase):
         # Calculate the actual duration
         actual_duration = end_time - start_time
 
-        # Print the actual duration for visibility
-        print(f"Actual runtime of fit() function: {actual_duration} seconds")
-
-        # Define expected maximum runtime = 120% of a baseline runtime
-        # Baseline runtime = 20 sec
-        baseline_runtime = 20  #  baseline runtime in seconds
-        runtime_limit = baseline_runtime * 1.2  # 120% of the baseline
+        # Define expected maximum runtime = 120% of the average baseline runtime
+        runtime_limit = self.baseline_runtime * 1.2  # 120% of the average baseline
 
         # Assert that the actual duration does not exceed the limit
         self.assertTrue(actual_duration <= runtime_limit, f"fit() function runtime exceeded the 120% limit of the baseline: {actual_duration} seconds; Limit was {runtime_limit} seconds")
