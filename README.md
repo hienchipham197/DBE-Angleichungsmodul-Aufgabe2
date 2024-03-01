@@ -111,7 +111,6 @@ fit ran in: 26.45095992088318 sec
 Die Laufzeit des fit()-Aufrufs wurde an data/baseline_runtime.txt angehängt: 26.45107412338257 Sekunden
 
 4. Ergebnis nach der Ausführung der test_runtime.py Datei --> keine Fehlermeldung
-
 Setting up class for runtime tests.
 Setup for runtime test
 __init__ ran in: 5.9604644775390625e-06 sec
@@ -119,8 +118,6 @@ fit ran in: 26.31524682044983 sec
 .
 ----------------------------------------------------------------------
 Ran 1 test in 37.876s
-
-OK
 
 # Binder Badge
 Das Prjekt kann in Binder ausgeführt werden: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/HEAD)
