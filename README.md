@@ -104,20 +104,23 @@ weighted avg       0.73      0.73      0.72     10000
 
 predict ran in: 2.099426746368408 sec
 
+3. Ergebnis nach der Ausführung der main_runtime.py Datei:
 
-3. Ergebnis nach der Ausführung der test_runtime.py Datei ist in der Datei ausgabe3.txt zu finden.
-   
-[ausgabe3.txt](https://github.com/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/files/14398185/ausgabe3.txt)
+init__ ran in: 1.2874603271484375e-05 sec
+fit ran in: 26.45095992088318 sec
+Die Laufzeit des fit()-Aufrufs wurde an data/baseline_runtime.txt angehängt: 26.45107412338257 Sekunden
 
-Setting up class for runtime tests. 
+3. Ergebnis nach der Ausführung der test_runtime.py Datei:
 
-Setup for runtime test 
+Setting up class for runtime tests.
+Setup for runtime test
+__init__ ran in: 5.9604644775390625e-06 sec
+fit ran in: 26.31524682044983 sec
+.
+----------------------------------------------------------------------
+Ran 1 test in 37.876s
 
-__init__ ran in: 4.76837158203125e-06 sec 
-
-fit ran in: 18.95483684539795 sec 
-
-Actual runtime of fit() function: 18.954954147338867 seconds
+OK
 
 # Binder Badge
 Das Prjekt kann in Binder ausgeführt werden: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hienchipham197/DBE-Angleichungsmodul-Aufgabe2/HEAD)
