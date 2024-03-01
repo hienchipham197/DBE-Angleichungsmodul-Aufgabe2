@@ -110,7 +110,7 @@ init__ ran in: 1.2874603271484375e-05 sec
 fit ran in: 26.45095992088318 sec
 Die Laufzeit des fit()-Aufrufs wurde an data/baseline_runtime.txt angehängt: 26.45107412338257 Sekunden
 
-3. Ergebnis nach der Ausführung der test_runtime.py Datei:
+4. Ergebnis nach der Ausführung der test_runtime.py Datei --> keine Fehlermeldung
 
 Setting up class for runtime tests.
 Setup for runtime test
